@@ -21,6 +21,10 @@
     display: block;
     background: var(--background);
     color: var(--color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/bg.svg");
+    background-repeat: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),no-repeat;
+    background-size: cover;
+    
   }
 
 .mobile{
@@ -76,13 +80,13 @@
 }
 
 .album-img{
-  border-radius: 50px;
+  
   width: 30%;
   transition: all 0.25s;
 }
 
 .album-img:hover{
-  width: 35%;
+  transform: scale(1.1);
 }
 
 
@@ -98,9 +102,9 @@
 }
 .card{
   padding:5%;
-  background-color: #1b1c1e;
+  background-color: #1d1d1d;
   color:white;
-  border-radius: 50px;
+  border-radius: 20px;
   margin: 1%;
   text-align: center;
   transition: all 0.5s;
@@ -142,27 +146,27 @@ width:37.5%
 
 .card-1:hover{
   background-color: var(--primary-color);
-  padding: 6%;
+  transform: scale(1.1);
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
 .card-2:hover{
 background-color: var(--primary-color);
-padding: 6%;
+transform: scale(1.1);
 background-repeat: no-repeat; /* Do not repeat the image */
 background-size: cover;
 }
 
 .card-3:hover{
 background-color: var(--primary-color);
-padding: 6%;
+transform: scale(1.1);
 background-repeat: no-repeat; /* Do not repeat the image */
 background-size: cover;
 }
 
 .linkcard a{
-  margin:3%;
+  margin: 0% 3%;
 }
 
 .itemlink{
@@ -182,4 +186,14 @@ background-size: cover;
   color: #00b562;
   font-size: 3vw;
   padding: 3%;
+}
+
+.linkbtn{
+  background-color: #00b562;
+  border-radius: 30px;
+  color: white;
+  border: solid #00b562;
+  font-size: 6vw;
+  font-weight: 600;
+  padding: 2% 5%;
 }

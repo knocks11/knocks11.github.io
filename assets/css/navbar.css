@@ -4,7 +4,14 @@
 
 /* NAVBAR */
 
-
+.nav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding: 0.5%;
+  background-color: transparent;
+}
 
 
 .navigator{
@@ -200,6 +207,9 @@
     
     
     .container-nav{
+      position: fixed;
+      z-index: 1;
+      top:0;
       width: 100%;
       padding-left: 5%;
       padding-top: 1%;
@@ -208,6 +218,7 @@
       /*-webkit-backdrop-filter: blur(2rem);
       backdrop-filter: blur(2rem);*/
       transition: all 0.5s;
+      background-color: #060608;
       
     }
     
